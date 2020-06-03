@@ -38,7 +38,6 @@ vi /etc/hosts
 10.101.218.116 hello-world.info
 
 curl hello-world.info
-
 ```
 
 ## 3、删除
