@@ -11,6 +11,10 @@ kubectl kustomize helloword/base
 ```
 kubectl kustomize helloword/overlays/test
 kubectl apply -k helloword/overlays/test
+
+or
+kustomize build helloword/overlays/test
+kustomize build helloword/overlays/test | kubectl apply -f -
 ```
 
 ## 3、生产环境配置
