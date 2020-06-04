@@ -19,7 +19,12 @@ kubectl kustomize helloword/overlays/prod
 kubectl apply -k helloword/overlays/prod
 ```
 
-## 4、更多示例
+## 4、删除
+```
+kubectl delete -k helloword/overlays/prod
+```
+
+## 5、更多示例
 
 ```
 https://github.com/kubernetes-sigs/kustomize/tree/master/examples
