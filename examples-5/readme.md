@@ -1,5 +1,7 @@
 # examples-helm
 
+## 0、k8s已安装好helm-tiller
+
 ## 1、创建打包
 
 ```
